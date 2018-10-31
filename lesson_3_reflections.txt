@@ -28,3 +28,9 @@ master?  What benefits does each approach have?
 
     Different branches allow for drastic changes to code without altering the master branch in a negative way. If the new branch is
 succesful, it can be merged later.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+    
+    Forks - copy a repository onto your Github
+    Clones - copy a repository onto your computer
+    Branches - copy a repository already on your computer and starts a different "head" - i think
