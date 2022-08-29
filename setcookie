@@ -1,0 +1,6 @@
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const val = urlParams.get('val');
+const n = urlParams.get('n');
+document.cookie = ""+n+"="+val+"; path=/; domain=.site.com";
+document.write("Cookie set with value: "+n+" "+val);
